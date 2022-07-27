@@ -5,6 +5,6 @@ describe('Pruebas en el 02-template-string', () => {
     test('getSaludo debe retornar "Hola Fernando', () => {
         const name = 'Fernando';
         const message = getSaludo(name);
-        expect(message).toBe(`Hola ${name} !!!`);
+        expect(message).toBe(`Hola ${name}`);
     });
 });
