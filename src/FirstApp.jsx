@@ -15,6 +15,7 @@ export const FirstApp = ({ title, subTitle, name }) => {
   )
 }
 
+export default FirstApp;
 
 FirstApp.propTypes = {
   title: PropTypes.string.isRequired,
