@@ -34,7 +34,7 @@ describe("Prueba en <FirstApp />", () => {
       title={title} 
       subtitle={subTitle}
       /> );
-    expect(getAllByTest(subTitle).length).toBe(2);
+    expect(getAllByText(subTitle).length).toBe(2);
  
   //  const h1=container.querySelector('h1');
   //  expect(h1.innerHTML).toContain(title);
