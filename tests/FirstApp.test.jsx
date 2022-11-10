@@ -29,10 +29,10 @@ describe("Prueba en <FirstApp />", () => {
 
     const title = "Hola, soy Goku";
     const subTitle = "Soy un subtitulo"
-    const { getAllByTest } = render( 
+    const { getAllByText } = render( 
     <FirstApp 
       title={title} 
-      subtitle={subTitle}
+      subTitle={subTitle}
       /> );
     expect(getAllByText(subTitle).length).toBe(2);
  
