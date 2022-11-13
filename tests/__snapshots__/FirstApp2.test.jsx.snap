@@ -6,17 +6,17 @@ exports[`Prueba en <FirstApp /> debe de hacer match con el snapshot 1`] = `
     data-testid="test-title"
   >
      
-    Hola, soy Goku
+    Hola soy Goku
      
   </h1>
   <p>
-    No hay subtítulo
+    No hay subtitulo
   </p>
   <p>
-    No hay subtítulo
+    No hay subtitulo
   </p>
   <p>
-    Fernando Herrera
+    Matias Morales
   </p>
 </div>
 `;
